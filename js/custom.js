@@ -6,6 +6,10 @@ function introPosition() {
         'marginTop': (innerHeight / 2) - 150,
         'marginLeft': (innerWidth / 2) - 150
     });
+    $('#scrollDown').css({
+        'paddingTop': innerHeight - 75,
+        'marginLeft': (innerWidth / 2) - 75
+    });
     $('#introText').css({
         'marginTop': innerHeight
     });

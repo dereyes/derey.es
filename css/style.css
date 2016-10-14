@@ -168,10 +168,21 @@ nav a.hashtag {
 
 #introLogo {
     position: fixed;
-    width: 300px;
-    height: 300px;
     opacity: 0;
     z-index: -1;
+}
+
+#scrollDown {
+    z-index: -2;
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    color: #fff;
+    opacity: 0;
+}
+
+#scrollDown p {
+    margin-bottom: -30px;
 }
 
 #timeline {
@@ -180,7 +191,7 @@ nav a.hashtag {
     height: 0;
     border-right: 1px solid #000;
     opacity: .5;
-    z-index: -2;
+    z-index: -1;
 }
 
 #timelineHeight {
@@ -253,7 +264,7 @@ nav a.hashtag {
 article,
 section {
     border-top: 1px solid rgba(0, 0, 0, .5);
-    padding: 5px 0 40px 0;
+    padding: 5px 0 60px 0;
     background: #fff;
     /*    margin-top: -50px;*/
 }

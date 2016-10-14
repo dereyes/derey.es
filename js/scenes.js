@@ -16,6 +16,12 @@ function startScroll() {
         opacity: 1,
         ease: Power4.easeOut
     });
+    TweenLite.to('#scrollDown', 1, {
+        delay: 1,
+        opacity: 1,
+        ease: Power4.easeOut,
+        marginTop: -20
+    });
     //
     //    TweenLite.to($('header nav'), 1, {
     //        opacity: 1,
