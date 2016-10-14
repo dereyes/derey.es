@@ -16,6 +16,24 @@ add favicon
     <title>D E Reyes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel='shortcut icon' href='favicon.png' type='image/png' />
+    <script>
+        console.log('analytics');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-85708609-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
@@ -39,7 +57,11 @@ add favicon
         <div id="timelineBottom"></div>
     </div>
 
-    <img id="introLogo" src="images/home/dereyesLogo-white.png" alt="dereyes logo">
+    <img id="introLogo" src="images/home/dereyesLogo-white.png" alt="dereyes logo" width="300" height="300">
+    <div id="scrollDown">
+        <p>Scroll</p>
+        <img src="images/home/arrowDown.png" alt="scroll down" width="60" height="60">
+    </div>
 
     <div id="column">
         <div id="introText" class="full">
