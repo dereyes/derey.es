@@ -51,6 +51,18 @@ var transparent = .3;
 var selection = 'all';
 var selectionPrev = 'all';
 
+function hashtagHover() {
+    $('.button').hover(function () {
+        TweenLite.to(this, .25, {
+            opacity: 1
+        });
+    }, function () {
+        TweenLite.to(this, .6, {
+            opacity: .6
+        });
+    });
+}
+
 function hashtagClick() {
     $('nav a').click(function () {
 
@@ -115,16 +127,4 @@ function hashtagClick() {
             opacity: 1
         });
     }
-}
-
-function hashtagHover() {
-    $('.button').hover(function () {
-        TweenLite.to(this, .25, {
-            opacity: 1
-        });
-    }, function () {
-        TweenLite.to(this, .5, {
-            opacity: .5
-        });
-    });
 }

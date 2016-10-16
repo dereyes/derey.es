@@ -100,6 +100,7 @@ button {
 }
 
 .button {
+    cursor: pointer;
     font-family: Space Mono, monospace;
     /*    color: #fff;*/
     display: inline-block;
@@ -107,7 +108,7 @@ button {
     padding: 5px;
     margin-bottom: 20px;
     margin-right: 1px;
-    opacity: .5;
+    opacity: .6;
 }
 
 
@@ -244,11 +245,11 @@ nav a.hashtag {
     margin-right: 17%;
 }
 
-.left p {
+.left p, .left h3 {
     padding-right: 33%;
 }
 
-.right p {
+.right p, right h3 {
     padding-left: 33%;
 }
 

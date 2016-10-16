@@ -49,10 +49,9 @@ function startScroll() {
         .setTween('#introVid', {
             opacity: '0'
         })
-        //        .addIndicators({
-        //            name: 'introGifFade'
-        //        })
         .addTo(controller);
+
+
 
     var sceneBGColor = new ScrollMagic.Scene({
             triggerElement: '#introText',
@@ -62,10 +61,8 @@ function startScroll() {
         .setTween('body', {
             backgroundColor: '#fff'
         })
-        //        .addIndicators({
-        //            name: 'introGifFade'
-        //        })
         .addTo(controller);
+
     var sceneTimeline = new ScrollMagic.Scene({
             triggerElement: '#contentTop',
             duration: '66%',
@@ -74,9 +71,6 @@ function startScroll() {
         .setTween('#timeline', {
             height: '66%'
         })
-        //.addIndicators({
-        //    name: 'timelineFade'
-        //})
         .addTo(controller);
 
     var sceneHeaderBG = new ScrollMagic.Scene({
@@ -86,9 +80,6 @@ function startScroll() {
         .setTween('header', 0, {
             background: 'rgba(192, 192, 192, 1)'
         })
-        //.addIndicators({
-        //    name: 'timelineFade'
-        //})
         .addTo(controller);
 
     //    var sceneNavBG = new ScrollMagic.Scene({
@@ -102,6 +93,17 @@ function startScroll() {
     //        //    name: 'timelineFade'
     //        //})
     //        .addTo(controller);
+}
+
+
+var vid = document.getElementById("introVid");
+
+function toggleVid() {
+    if (vid.paused == false) {
+        vid.pause();
+    } else {
+        vid.play();
+    }
 }
 
 function revealArticles() {
@@ -118,9 +120,6 @@ function revealArticles() {
             .setTween(articles[index], .5, {
                 opacity: 1
             })
-            //                .addIndicators({
-            //                    name: 'reveal'
-            //                })
             .addTo(controller);
     });
 
