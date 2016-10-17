@@ -1,3 +1,4 @@
+
 function introPosition() {
     console.log('positioning');
     //set height of intro divs
@@ -45,25 +46,12 @@ function addTags() {
     $('.project.writing').append('<p class="hashtag">#Writing</p>');
 }
 
-var hoverIn = 50;
-var hoverOut = 1000;
-var transparent = .3;
+
 var selection = 'all';
 var selectionPrev = 'all';
 
-function hashtagHover() {
-    $('.button').hover(function () {
-        TweenLite.to(this, .25, {
-            opacity: 1
-        });
-    }, function () {
-        TweenLite.to(this, .6, {
-            opacity: .6
-        });
-    });
-}
 
-function hashtagClick() {
+function navClick() {
     $('nav a').click(function () {
 
         selectionPrev = selection;
