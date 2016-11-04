@@ -59,9 +59,7 @@ h2 {
     font-size: 30px;
     line-height: 1em;
     opacity: .5;
-    /*    letter-spacing: .1em;*/
     font-style: italic;
-    opacity: .5;
 }
 
 h3 {
@@ -74,6 +72,11 @@ p {
     padding-bottom: 20px;
 }
 
+p.caption {
+    margin-top: -20px;
+    font-style: italic;
+}
+
 article p {
     opacity: .5;
 }
@@ -81,6 +84,16 @@ article p {
 a {
     color: #000;
     text-decoration: none;
+}
+
+a.bigA{
+    font-family: Space Mono, monospace;
+    display: block;
+    font-size: 30px;
+    line-height: 1em;
+    line-height: 1em;
+    opacity: .5;
+    padding-bottom: 20px;
 }
 
 .hashtag {
@@ -100,6 +113,13 @@ a {
     margin-bottom: 20px;
     margin-right: 1px;
     opacity: .6;
+}
+
+blockquote{
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.5em;
+/*    padding-bottom: 1em;*/
 }
 
 
@@ -137,6 +157,12 @@ header p {
     display: inline-block;
 }
 
+.process p{
+    opacity: .8;
+    padding-left: 60px;
+    line-height: 1.5em;
+}
+
 
 /* POSITIONING TIMELINE ELEMENTS */
 
@@ -170,7 +196,7 @@ header p {
 }
 
 .right p,
-right h3 {
+.right h3 {
     padding-left: 33%;
 }
 
@@ -181,7 +207,7 @@ right h3 {
 }
 
 
-/* FORMATTING TIMELINE ELEMENTS */
+/* FORMATTING PAGE ELEMENTS */
 
 article {
     border-top: 1px solid rgba(0, 0, 0, .5);
@@ -192,14 +218,13 @@ article {
     max-width: 500px;
 }
 
-/*
+
 article img {
     display: block;
     width: 500px;
     height: auto;
     margin: 5px 0px 20px 0px;
 }
-*/
 
 
 /* PROJECT-SPECIFIC*/

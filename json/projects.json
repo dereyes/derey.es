@@ -1,0 +1,108 @@
+{
+    "p": [
+        {
+            "title": "Arirang Visualization",
+            "preview": "<div style='background: url(../images/arirang/heroArirang2.gif); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "hero": "<iframe class='projectHero' src='https://www.youtube.com/embed/u4dnh7r_6Wg' width='100%' height='100%' frameborder='0' allowfullscreen></iframe>",
+            "heroCaption": "A video of the performance on June 10, 2016.",
+            "subtitle": "Live Interactive Concert Visuals",
+            "tools": "Adobe Illustrator, Processing",
+            "readMore": "arirang.html",
+            "client": "Joe Kye",
+            "role": "Coder, Visual Designer, Video Jockey",
+            "status": "Presented at the #SeedToSprout benefit concert, Spring 2016",
+            "tags": "#FrontEndDev #GenerativeGraphics #VisualDesign"
+        },
+        {
+            "title": "SoundScapes II",
+            "preview": "<div style='background: url(../images/soundscapes/heroSoundScapes.png); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "hero": "<div style='background: url(../images/soundscapes/heroSoundScapes.png); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "heroCaption": "",
+            "subtitle": "A VR Sound Visualization Experiment",
+            "tools": "Unity C#",
+            "readMore": "",
+            "client": "",
+            "role": "Coder, Researcher, Visual Designer",
+            "status": "Presented at ISEA Hong Kong",
+            "tags": "#DesignResearch #FrontEndDev #GenerativeGraphics #VisualDesign #VRExperienceDesign #Writing"
+        },
+        {
+            "title": "SoundScapes I",
+            "preview": "<div style='background: url(../images/soundscapes/heroSoundScapes.png); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "hero": "<div style='background: url(../images/soundscapes/heroSoundScapes.png); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "heroCaption": "",
+            "subtitle": "A Browser-Based Sound Visualization Experiment",
+            "tools": "HTML, CSS, JavaScript, Three.js, Web Audio API",
+            "readMore": "soundscapesI.html",
+            "client": "",
+            "role": "Coder, Researcher, Visual Designer, in collaboration with Michelle Lee",
+            "status": "Presented at ISEA Hong Kong",
+            "tags": "#DesignResearch #FrontEndDev #GenerativeGraphics #UIDesign #VisualDesign #Writing"
+        },
+        {
+            "title": "DisQuiet",
+            "preview": "<div style='background: url(../images/disquiet/heroDisQuiet.gif); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "hero": "<div class='projectHero'></div>",
+            "heroCaption": "",
+            "subtitle": "Musical Relaxation App Prototype",
+            "tools": "Processing",
+            "readMore": "",
+            "client": "",
+            "role": "Audio Designer, Coder, Researcher, Visual Designer",
+            "status": "Presented at ISEA Hong Kong and “Design for Social Change” at Hong Kong Polytechnic University and the UC Davis Undergraduate Research Conference",
+            "tags": "#DesignResearch #FrontEndDev #GenerativeGraphics #UIDesign #VisualDesign"
+        },
+        {
+            "title": "Designing Harmony",
+            "preview": "<div style='background: url(../images/designingharmony/heroDesigningHarmony.png); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "hero": "<div class='projectHero'></div>",
+            "heroCaption": "",
+            "subtitle": "Research / Multi-Modal Essay",
+            "tools": "",
+            "readMore": "",
+            "client": "",
+            "role": "Researcher, Writer",
+            "status": "",
+            "tags": "#DesignResearch #Writing"
+        },
+        {
+            "title": "Dark was the Night",
+            "preview": "<div style='background: url(../images/darkwasthenight/heroDarkWasTheNight.png); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "hero": "<div class='projectHero'></div>",
+            "heroCaption": "",
+            "subtitle": "Projected Graphics / Photography",
+            "tools": "Adobe Illustrator, DSLR Photography",
+            "readMore": "",
+            "client": "",
+            "role": "Photographer, Projection Artist, Visual Designer",
+            "status": "",
+            "tags": "#VisualDesign"
+        },
+        {
+            "title": "AudioVisuals",
+            "preview": "<div style='background: url(../images/audiovisuals/heroAudioVisuals.gif); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "hero": "<div class='projectHero'></div>",
+            "heroCaption": "",
+            "subtitle": "Music Visualizer",
+            "tools": "Processing",
+            "readMore": "",
+            "client": "",
+            "role": "Coder, Visual Designer",
+            "status": "",
+            "tags": "#FrontEndDev #GenerativeGraphics #UIDesign #VisualDesign"
+        },
+        {
+            "title": "Easy Does It",
+            "preview": "<div style='background: url(../images/easydoesit/heroEasyDoesIt.gif); background-position: center; background-size: cover;' class='projectHero'></div>",
+            "hero": "<div class='projectHero'></div>",
+            "heroCaption": "",
+            "subtitle": "Projected Video for a Play",
+            "tools": "Adobe Premiere",
+            "readMore": "",
+            "client": "Deanna Siegel, Dead Arts Society",
+            "role": "Video Artist",
+            "status": "",
+            "tags": "#DesignResearch #VideoProduction #VisualDesign"
+        }
+        ]
+}

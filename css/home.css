@@ -245,11 +245,13 @@ nav a.hashtag {
     margin-right: 17%;
 }
 
-.left p, .left h3 {
+.left p,
+.left h3 {
     padding-right: 33%;
 }
 
-.right p, right h3 {
+.right p,
+.right h3 {
     padding-left: 33%;
 }
 
@@ -296,56 +298,65 @@ article img {
     max-width: 300px;
     height: 300px;
     margin: 5px 0px 20px 0px;
+/*
+    background: white;
+    background-position: center;
+    background-size: cover;
+*/
 }
 
-#project1 .projectHero {
+/*
+#project0 .projectHero {
     background: url(../images/arirang/heroArirang2.gif);
     background-position: center;
     background-size: cover;
     border-color: #fff;
 }
 
-#project2 .projectHero {
+#project1 .projectHero {
     background: url(../images/soundscapes/heroSoundScapes.png);
     background-position: center;
     background-size: cover;
 }
+*/
 
-#project3 .projectHero {
+/*
+#project2 .projectHero {
     background: url(../images/disquiet/heroDisQuiet.gif);
     background-position: center;
     background-size: cover;
 }
 
-#project4 .projectHero {
+#project3 .projectHero {
     background: url(../images/designingharmony/heroDesigningHarmony.png);
     background-position: center;
     background-size: cover;
 }
 
-#project5 .projectHero {
+#project4 .projectHero {
     background: url(../images/darkwasthenight/heroDarkWasTheNight.png);
     background-position: center;
     background-size: cover;
 }
 
-#project6 .projectHero {
+#project5 .projectHero {
     background: url(../images/audiovisuals/heroAudioVisuals.gif);
     background-position: center;
     background-size: cover;
 }
 
-#project7 .projectHero {
+#project6 .projectHero {
     background: url(../images/easydoesit/heroEasyDoesIt.gif);
     background-position: center;
     background-size: cover;
 }
 
-#project8 .projectHero {
+#project7 .projectHero {
     background: url(../images/lightbasedsetdesign/heroLightBasedSetDesign.png);
     background-position: center;
     background-size: cover;
 }
+*/
 
 
 /*CONTACT FORM*/
