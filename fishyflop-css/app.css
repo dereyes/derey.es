@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Heebo:100|Pontano+Sans|Yantramanav');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+/*general elements*/
+
+html,
+body {
+    height: 100%;
+    /*    font-family: "Noto Serif";*/
+    font-family: "Libre Baskerville";
+    font-size: 27px;
+    color: #191919;
+}
+
+.container-fluid {
+    min-height: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+section {
+    padding: 5em 1em;
+}
+
+.maxWidth {
+    max-width: 1000px;
+}
+
+
+/*style components*/
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4), 0 6px 20px 0 rgba(0, 0, 0, .4);
+}
+
+.card {
+    padding: 1em 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+}
+
+.blueBG {
+    background-color: #1b4aa0;
+}
+
+.greenBG {
+    background-color: #00855f;
+}
+
+.whiteText {
+    color: white;
+}
+
+.whiteText a:hover {
+    color: white;
+}
+
+
+/*typography*/
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: underline;
+    font-size: 1em;
+    font-family: "Yantramanav";
+    font-family: sans-serif;
+    color: #ff9d87;
+}
+
+a:hover {
+    color: #1b4aa0;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ff9d87;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1b4aa0;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    .navbar li {
+        padding-top: 1em;
+    }
+    .navbar li a {
+        line-height: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    nav img {
+        display: none;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 2=em;
+    }
+}
+
+
+/*top*/
+
+
+/*engage*/
+
+section#engage h2 {
+    font-size: 1.5em;
+}
+
+
+/*team*/
+
+#team {
+    text-align: center;
+}
+
+#team p {
+    font-size: .75em;
+}
+
+
+/*
+#team a {
+    color: #ff9d87;
+}
+
+#team a:hover {
+    color: #fff;
+}
+*/
+
+.profile {
+    padding-bottom: 2em;
+}
+
+
+/*contact*/
+
+textarea {
+    width: 100%;
+}

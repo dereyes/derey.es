@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fishy Flop</title>
+    <link rel="stylesheet" href="fishyflop-css/bootstrap.min.css">
+    <link rel="stylesheet" href="fishyflop-css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="fishyflop-css/app.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-fixed-top navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="col-sm-2 col-sm-offset-1">
+                        <a href="#top">About</a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a href="#engage">Sign Up</a>
+                    </li>
+                    <img class="col-sm-2" src="fishyflop-images/logo.png" alt="logo">
+                    <li class="col-sm-2">
+                        <a href="#team">The Team</a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <section id="top" class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-xs-12">
+                    <h1><a href="#">Fishy Flop</a> is a fin-tastic mobile game by <a href="#team">The Fishy Flop Team</a>.</h1>
+                    <br>
+                    <p>It’s like QWOP meets Angry Birds meets not being able to breathe air.</p>
+                    <p>It’s currently in closed beta on Google Play.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="engage" class="row whiteBG">
+            <!--            <div class="col-sm-10 col-sm-offset-1">-->
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 card">
+                <div class="col-sm-6">
+                    <img src="fishyflop-images/dancingFish.gif" alt="App icon" width="100%">
+                </div>
+                <div class="col-sm-6">
+                    <h2>Sign up to be a beta tester</h2>
+                    <form>
+                        <fieldset class="form-group">
+                            <p>Your name:</p>
+                            <input type="text" class="form-control" id="testerName">
+                            <br>
+                            <p>Your email address:</p>
+                            <input type="email" class="form-control" id="testerEmail">
+                            <small id="emailHelp" class="form-text text-muted">(We will never share your email address with anyone)</small>
+                            <br>
+                            <br>
+                        </fieldset>
+                        <button type="submit" class="btn btn-default" onclick="testerSubmit()">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <!--            </div>-->
+        </section>
+
+        <section id="team" class="row shadow blueBG whiteText">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-xs-12">
+                    <h2>The Team</h2>
+                    <br>
+                </div>
+                <div class="profile col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-lg-4 col-lg-offset-0">
+                    <img src="fishyflop-images/computer.png" alt="App icon" width="100%">
+                    <h3><a href="https://www.linkedin.com/in/brian-mah-633b39126/">Brian Mah</a></h3>
+                    <p>Lead Developer</p>
+                </div>
+                <div class="profile col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-lg-4 col-lg-offset-0">
+                    <img src="fishyflop-images/counter2.png" alt="App icon" width="100%">
+                    <h3><a href="https://www.linkedin.com/in/alex-jungroth-561282112/">Alex Jungroth</a></h3>
+                    <p>Developer</p>
+                </div>
+                <div class="profile col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-lg-4 col-lg-offset-0">
+                    <img src="fishyflop-images/bgPaintingVincent1.png" alt="App icon" width="100%">
+                    <h3><a href="#">Daniel Schlesinger</a></h3>
+                    <p>Developer</p>
+                </div>
+                <div class="profile col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-2 col-lg-4 col-lg-offset-0">
+                    <img src="fishyflop-images/stuff2.png" alt="App icon" width="100%">
+                    <h3><a href="https://jordanhmusic.com/">Jordan Henderson</a></h3>
+                    <p>Music, Audio</p>
+                </div>
+                <div class="profile col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-lg-4 col-lg-offset-0">
+                    <img src="fishyflop-images/bgPaintingFrida.png" alt="App icon" width="100%">
+                    <h3><a href="http://derey.es">Darin E. Reyes</a></h3>
+                    <p>Visuals</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="col-xs-12">
+                    <h1>Get in Touch</h1>
+                    <form>
+                        <div class="form-group">
+                            <p>Your name:</p>
+                            <input type="text" class="form-control" id="contactName">
+                        </div>
+                        <div class="form-group">
+                            <p>Your email address:</p>
+                            <input type="email" class="form-control" id="contactEmail">
+                        </div>
+                        <div class="form-group">
+                            <p>Your message:</p>
+                            <textarea class="form-control" rows="5" id="contactMessage"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default" onclick="contactSubmit()">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="fishyflop-js/bootstrap.min.js"></script>
+    <script src="fishyflop-js/app.js"></script>
+</body>
+
+</html>
