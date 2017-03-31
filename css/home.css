@@ -151,6 +151,10 @@ nav a.hashtag {
     padding-right: 20px;
 }
 
+header i {
+    color: #fff;
+}
+
 #introVid {
     position: fixed;
     top: 50%;
