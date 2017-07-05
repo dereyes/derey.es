@@ -1,0 +1,88 @@
+{
+    "p": [
+		{
+            "projectTag" : "gato",
+			"title": "Gato",
+            "preview": "gato/images/gatoHero.gif",
+            "hero": "<img src='images/heroGato.jpg'>",
+            "heroCaption": "",
+            "subtitle": "Interactive installation for babies, children, and their caretakers",
+            "tools": "Ableton Live, Adobe Illustrator, Processing, Unity C#, XBox Kinect",
+            "readMore": "gato/index.html",
+            "client": "Crocker Art Museum",
+            "role": "Audio Designer, Coder, Visual Designer, in collaboration with Michelle Lee",
+            "status": "Open now at the Crocker Art Museum until October 2017",
+            "tags": "#FrontEndDev #GenerativeGraphics #VisualDesign"
+        },
+        {
+            "projectTag" : "arirang",
+			"title": "Arirang<br>Visuali-<br>zation",
+            "preview": "arirang/images/heroArirang.gif",
+            "hero": "<iframe class='aspect16x9' src='https://www.youtube.com/embed/u4dnh7r_6Wg' frameborder='0' allowfullscreen></iframe>",
+            "heroCaption": "A video of the performance on June 10, 2016.",
+            "subtitle": "Live interactive concert visuals",
+            "tools": "Adobe Illustrator, Processing",
+            "readMore": "arirang/index.html",
+            "client": "Joe Kye",
+            "role": "Coder, Visual Designer, Video Jockey",
+            "status": "Presented at the #SeedToSprout benefit concert, Spring 2016",
+            "tags": "#FrontEndDev #GenerativeGraphics #VisualDesign"
+        },
+        {
+            "projectTag" : "soundScapesII",
+			"title": "Sound-<br>Scapes II",
+            "preview": "soundscapesII/images/3.JPG",
+            "hero": "<img src='images/3.JPG'>",
+            "heroCaption": "",
+            "subtitle": "VR-based sound visualization experiments",
+            "tools": "Unity C#",
+            "readMore": "soundscapesii/index.html",
+            "client": "",
+            "role": "Coder, Researcher, Visual Designer",
+            "status": "Presented at ISEA Hong Kong",
+            "tags": "#DesignResearch #FrontEndDev #GenerativeGraphics #VisualDesign #VRExperienceDesign #Writing"
+        },
+        {
+            "projectTag" : "soundScapesI",
+			"title": "Sound-<br>Scapes I",
+            "preview": "soundscapesI/images/heroSoundScapes.png",
+            "hero": "<img src='images/heroSoundScapes.png'>",
+            "heroCaption": "",
+            "subtitle": "Browser-based sound visualization experiments",
+            "tools": "HTML, CSS, JavaScript, Three.js, Web Audio API",
+            "readMore": "soundscapesi/index.html",
+            "client": "",
+            "role": "Coder, Researcher, Visual Designer, in collaboration with Michelle Lee",
+            "status": "Presented at ISEA Hong Kong",
+            "tags": "#DesignResearch #FrontEndDev #GenerativeGraphics #UIDesign #VisualDesign #Writing"
+        },
+        {
+            "projectTag" : "disQuiet",
+			"title": "DisQuiet Prototype",
+            "preview": "disquiet/images/heroDisQuiet.gif",
+            "hero": "<iframe class='aspect16x9' src='https://player.vimeo.com/video/165835870' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+            "heroCaption": "A video demo of the prototype",
+            "subtitle": "Musical relaxation app for depression and anxiety",
+            "tools": "Processing",
+            "readMore": "disquiet/index.html",
+            "client": "",
+            "role": "Audio Designer, Coder, Researcher, Visual Designer",
+            "status": "Presented at ISEA Hong Kong, “Design for Social Change” at Hong Kong Polytechnic University, and the 2016 UC Davis Undergraduate Research Conference",
+            "tags": "#DesignResearch #FrontEndDev #GenerativeGraphics #UIDesign #VisualDesign"
+        },
+        {
+            "projectTag" : "audioVisuals",
+			"title": "Audio-<br>Visuals",
+            "preview": "audiovisuals/images/heroAudioVisuals.gif",
+            "hero": "<img src='images/heroAudioVisuals.gif'>",
+            "heroCaption": "A visualization of the song “She Wants” by Metronomy",
+            "subtitle": "Music visualizer",
+            "tools": "Processing",
+            "readMore": "audiovisuals/index.html",
+            "client": "",
+            "role": "Coder, Visual Designer",
+            "status": "",
+            "tags": "#FrontEndDev #GenerativeGraphics #UIDesign #VisualDesign"
+        }
+        ]
+}
