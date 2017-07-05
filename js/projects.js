@@ -40,7 +40,7 @@ $(document).ready(function(){
 	var p;
 	
 	//grab json file and run dataEntry function
-	$.getJSON('../_json/projects.json', dataEntry);
+	$.getJSON('../json/projects.json', dataEntry);
 	
 	function dataEntry(data){
 		//save json data into p

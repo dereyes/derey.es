@@ -44,7 +44,7 @@ $(document).ready(function(){
 	var p;
 	
 	//grab json file and run dataEntry function
-	$.getJSON('_json/projects.json', dataEntry);
+	$.getJSON('json/projects.json', dataEntry);
 	
 	
 	function dataEntry(data){
@@ -63,13 +63,13 @@ $(document).ready(function(){
 					e = e + '<div class="node"></div>';
 					
 					//hero preview image
-					e = e + '<div class="heroImage" style="background-image: url('../_js/ + p[j].preview + ')"></div>';
+					e = e + '<div class="heroImage" style="background-image: url(' + p[j].preview + ')"></div>';
 					
 					//title and subtitle
 					e = e + '<h2>' + p[j].title + '</h2><p>' + p[j].subtitle + '</p>';
 					
 					//read more button
-					e = e + '<a class="button" href="../_js/' + p[j].readMore + '">Read More</a>';
+					e = e + '<a class="button" href="' + p[j].readMore + '">Read More</a>';
 
 					//prepend it all
 					$(this).prepend(e);
