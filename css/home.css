@@ -13,16 +13,24 @@ section.sectionTiles.sorting {
 }
 
 section.intro {
+/*
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
+*/
+/*	justify-content: center;*/
+/*	align-content: center;*/
+/*	align-items: center;*/
 }
 section.intro#top{
 	background: white;
-	max-width: 715px;
+	justify-content: center;
 }
+
+section.intro#tagline{
+	justify-content: center;
+	align-items: center;
+}
+
 section.intro#tagline div{
 	background: white;
 	text-align: center;
