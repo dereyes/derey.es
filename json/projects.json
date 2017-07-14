@@ -1,6 +1,20 @@
 {
     "p": [
 		{
+            "projectTag" : "breathe",
+			"title": "Breathe California Rebranding",
+            "preview": "breathe/images/breatheHero.jpg",
+            "hero": "<img src='images/1.jpg'>",
+            "heroCaption": "",
+            "subtitle": "Marketing materials for a local non-profit",
+            "tools": "Adobe After Effects, Adobe Dreamweaver, Adobe Illustrator, Adobe Photoshop, Adobe Premiere, Processing",
+            "readMore": "breathe/index.html",
+            "client": "Breathe California Sacramento Region",
+            "role": "Coder, Visual Designer",
+            "status": "Ongoing",
+            "tags": "#FrontEndDev #GenerativeGraphics #VisualDesign"
+        },
+		{
             "projectTag" : "gato",
 			"title": "Gato",
             "preview": "gato/images/gatoHero.gif",
