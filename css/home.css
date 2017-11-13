@@ -1,96 +1,109 @@
 section.sectionTiles {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	flex-wrap: wrap;
-	padding-bottom: .5em;
-	width: 100%;
-	opacity: 1;
-	transition: all .33s ease;
-}
-section.sectionTiles.sorting {
-	opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: .5em;
+    width: 100%;
+    opacity: 1;
+    transition: all .33s ease;
 }
 
-section.intro#top{
-	background: white;
-	justify-content: center;
-	text-align: center;
+section.sectionTiles.sorting {
+    opacity: 0;
+}
+
+section.intro#top {
+    background: white;
+    justify-content: center;
+    max-width: 360px;
+    padding-top: 1em;
+}
+
+section.intro#top p {
+    text-align: center;
 }
 
 .selfPortrait {
-	height: 100%;
-	width: auto;
+    height: 100%;
+    width: auto;
 }
 
-section.intro#tagline{
-	justify-content: center;
-	align-items: center;
+section.intro#tagline {
+    justify-content: center;
+    align-items: center;
 }
 
-section.intro#tagline div{
-	background: white;
-	text-align: center;
-}
-section.intro#tagline div p:nth-child(2){
-	margin-bottom: 0;
+section.intro#tagline div {
+    background: white;
+    text-align: center;
 }
 
-section#contactAnchor{
-	background: white;
+section.intro#tagline div p:nth-child(2) {
+    margin-bottom: 0;
 }
+
+section#contactAnchor {
+    background: white;
+}
+
 section#contactAnchor form {
-	max-width: 360px;
-}
-section#contactAnchor form fieldset{
-	display: flex;
-	border: 0;
-	margin-bottom: 2em;
-}
-section#contactAnchor form fieldset * {
-	width: 100%;
-	color: black;
-}
-section#contactAnchor form fieldset input,textarea {
-	border: 1px solid black;
-	padding: .25em;
+    max-width: 360px;
 }
 
-section.heightWindow{
-	height: 100%;
+section#contactAnchor form fieldset {
+    display: flex;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+section#contactAnchor form fieldset * {
+    width: 100%;
+    color: black;
+}
+
+section#contactAnchor form fieldset input,
+textarea {
+    border: 1px solid black;
+    padding: .25em;
+}
+
+section.heightWindow {
+    height: 100%;
 }
 
 section#timeline {
-	z-index: -1;
-	position: fixed;
-	border-right: 1px solid black;
-	width: 50%;
-	top: 16px;
-	left: 0;
-	align-self: flex-start;
-	height: 66%;
+    z-index: -1;
+    position: fixed;
+    border-right: 1px solid black;
+    width: 50%;
+    top: 16px;
+    left: 0;
+    align-self: flex-start;
+    height: 66%;
 }
+
 section#timeline i {
-	position: relative;
-	top: 100%;
-	left: 100%;
-	margin-left: 4.57px;
-	margin-top: -8px;
+    position: relative;
+    top: 100%;
+    left: 100%;
+    margin-left: 4.57px;
+    margin-top: -8px;
 }
 
 .path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 10s linear alternate infinite;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 10s linear alternate infinite;
 }
 
 @keyframes dash {
-  from {
-    stroke-dashoffset: 1000;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
+    from {
+        stroke-dashoffset: 1000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
 
 #introVid {
@@ -110,85 +123,94 @@ section#timeline i {
 }
 
 .tileHome {
-	padding-top: 8px;
-	min-height: 180px;
-/*	transition: opacity .25s ease;*/
-}
-h1.tileHome{
-	align-self: flex-start;
-	min-height: auto;
+    padding-top: 8px;
+    min-height: 180px;
+    /*	transition: opacity .25s ease;*/
 }
 
-.tileHome:not(h1){
-	opacity: 0;
+h1.tileHome {
+    align-self: flex-start;
+    min-height: auto;
+}
+
+.tileHome:not(h1) {
+    opacity: 0;
 }
 
 .node {
-	display: inline-block;
-	position: relative;
-	width: 16px;
-	height: 16px;
-	border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
 }
 
 article.tileHome.work {
-	width: 100%;
-	max-width: 270px;
-	margin-top: 8px;
-	margin-bottom: 4em;
-	background: white;
+    width: 100%;
+    max-width: 270px;
+    margin-top: 8px;
+    margin-bottom: 4em;
+    background: white;
 }
-article.tileHome.work .node{
-	position: relative;
-	z-index: 0;
-	margin-left: 50%;
-	left: -8.5px;
-	top: -8px;
-	background-color: #ff8296;
+
+article.tileHome.work .node {
+    position: relative;
+    z-index: 0;
+    margin-left: 50%;
+    left: -8.5px;
+    top: -8px;
+    background-color: #ff8296;
 }
+
 article.tileHome.recognition {
-	width: 50%;
-	text-align: right;
-	align-self: flex-start;
-	padding-right: .5em;
+    width: 50%;
+    text-align: right;
+    align-self: flex-start;
+    padding-right: .5em;
 }
-article.tileHome.recognition .node{
-	margin-right: -16px;
-	background-color: #006838;
+
+article.tileHome.recognition .node {
+    margin-right: -16px;
+    background-color: #006838;
 }
+
 article.tileHome.education {
-	width: 50%;
-	align-self: flex-end;
-	padding-left: .5em;
+    width: 50%;
+    align-self: flex-end;
+    padding-left: .5em;
 }
-article.tileHome.education .node{
-	margin-left: -16px;
-	background-color: #2e3192;
+
+article.tileHome.education .node {
+    margin-left: -16px;
+    background-color: #2e3192;
 }
 
 article.tileHome.life {
-	width: 50%;
-	align-self: flex-end;
-	padding-left: .5em;
+    width: 50%;
+    align-self: flex-end;
+    padding-left: .5em;
 }
-article.tileHome.life .node{
-	margin-left: -16px;
-	background-color:#ff0200;
+
+article.tileHome.life .node {
+    margin-left: -16px;
+    background-color: #ff0200;
 }
 
 .heroImage {
-	display: inline-flex;
-	background-position: center;
-	background-size: cover;
-	width: 100%;
-	margin-bottom: .5em;
-	border: 1px solid black;
+    display: inline-flex;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: .5em;
+    border: 1px solid black;
 }
-.heroImage:before{
-    content:'';
-    float:left;
-    padding-top:100%;
+
+.heroImage:before {
+    content: '';
+    float: left;
+    padding-top: 100%;
 }
+
 small {
-	display: none;
+    display: none;
 }
