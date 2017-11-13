@@ -46,106 +46,54 @@ div#header nav#tabs a[sort="all"]:hover{
 
 @media (max-width: 720px) {
 	div#header {
-/*		background: #000000;*/
 		flex-direction: column;
 	}
-	
-/*	buttons*/
-	div#header div:nth-child(2) a {
-		color: white;
-		background: black;
-	}
-	div#header div:nth-child(2) a i, div#header a h0 {
-		color: white;
-	}
-	div#header div:nth-child(2) a:hover{
-		color: black;
-		background: white;
-	}
-	div#header div:nth-child(2) a:hover i, div#header a:hover h0 {
-		color: black;
-	}
-	
-	div#header a#hamburger{
-		display: inline-block;
-	}
-	
-	/*blocks*/
-	div#header div{
+	div#header div#topMobile {
 		display: flex;
-	}
-	div#header div:first-child{
 		justify-content: space-between;
 	}
 	
-	div#header div:nth-child(2){
+	div#header nav {
 		display: none;
 	}
-	div#header:hover div:nth-child(2){
-		display: flex;
+	div#header:hover nav {
+		display: block;
 	}
 	
-	div#header div:nth-child(2){
+	div#header nav a {
+		display: flex;
 		flex-direction: column;
-		text-align: center;
 	}
-	div#header div:nth-child(2) nav {
-		text-align: center;
-	}
-	div#header div:nth-child(2) nav a{
-		display: inline-block;
+	div#header nav a {
+		background: black;
+		color: white;
 		width: 100%;
 		text-align: center;
+	}
+	div#header nav a i{
+		color: white;
+	}
+	
+	/*buttons*/
+	div#header a:hover {
+		background: white;
+		color: black;
+	}
+	div#header a:hover i {
+		color: black;
 	}
 }
 @media (min-width: 721px) {
 	div#header {
-/*		background: white;*/
-		padding: .5em .5em 0 .5em;
+		display: flex;
+		justify-content: space-between;
+	}
+	div#header * {
+		display: flex;
 	}
 	
 	/*buttons*/
-/*
-	div#header a {
-		color: black;
-		background: white;
-	}
-	div#header a i, div#header a h0 {
-		color: black;
-	}
-	div#header a:hover{
-		color: white;
-		background: black;
-	}
-	div#header a:hover i, div#header a:hover h0 {
-		color: white;
-	}
-*/
 	div#header div a#hamburger{
 		display: none;
-	}
-	
-	/*blocks*/
-	div#header div:first-child {
-		width: 25%;
-		border-top: 1px solid black;
-	}
-	div#header div:nth-child(2) {
-		width: 75%;
-		border-top: 1px solid black;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-	}
-	
-	div#header div:nth-child(2) nav {
-		display: flex;
-	}
-	div#header div:nth-child(2) nav#tabs {
-		flex: 3;
-	}
-	div#header div:nth-child(2) nav#social {
-		flex: 1;
-		justify-content: flex-end;
 	}
 }

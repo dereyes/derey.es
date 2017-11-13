@@ -1,6 +1,20 @@
 {
     "p": [
 		{
+            "projectTag" : "breathe",
+			"title": "Breathe California Rebranding",
+            "preview": "breathe/images/breatheHero.jpg",
+            "hero": "<img src='images/1.jpg'>",
+            "heroCaption": "",
+            "subtitle": "Marketing materials for a local non-profit",
+            "tools": "Adobe After Effects, Adobe Dreamweaver, Adobe Illustrator, Adobe Photoshop, Adobe Premiere, Processing",
+            "readMore": "breathe/index.html",
+            "client": "Breathe California Sacramento Region",
+            "role": "Coder, Visual Designer",
+            "status": "Ongoing",
+            "tags": "#FrontEndDev #GenerativeGraphics #VisualDesign"
+        },
+		{
             "projectTag" : "gato",
 			"title": "Gato",
             "preview": "gato/images/gatoHero.gif",
@@ -16,7 +30,7 @@
         },
         {
             "projectTag" : "arirang",
-			"title": "Arirang<br>Visuali-<br>zation",
+			"title": "Arirang<br>Visualization",
             "preview": "arirang/images/heroArirang.gif",
             "hero": "<iframe class='aspect16x9' src='https://www.youtube.com/embed/u4dnh7r_6Wg' frameborder='0' allowfullscreen></iframe>",
             "heroCaption": "A video of the performance on June 10, 2016.",
@@ -36,7 +50,7 @@
             "heroCaption": "",
             "subtitle": "VR-based sound visualization experiments",
             "tools": "Unity C#",
-            "readMore": "soundscapesii/index.html",
+            "readMore": "soundscapesII/index.html",
             "client": "",
             "role": "Coder, Researcher, Visual Designer",
             "status": "Presented at ISEA Hong Kong",
@@ -50,7 +64,7 @@
             "heroCaption": "",
             "subtitle": "Browser-based sound visualization experiments",
             "tools": "HTML, CSS, JavaScript, Three.js, Web Audio API",
-            "readMore": "soundscapesi/index.html",
+            "readMore": "soundscapesI/index.html",
             "client": "",
             "role": "Coder, Researcher, Visual Designer, in collaboration with Michelle Lee",
             "status": "Presented at ISEA Hong Kong",

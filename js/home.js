@@ -11,6 +11,15 @@ $(document).ready(function(){
 //		});
 //	});
 	
+	var $svg = $('svg').drawsvg({
+		duration: 1500,
+		callback: function() {
+			console.log('animated');
+		}
+	});
+
+	$svg.drawsvg('animate');
+	
 	function styles(){
 		var heightHeader = $("div#header").outerHeight();
 		
