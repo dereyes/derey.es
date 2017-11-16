@@ -1,26 +1,26 @@
-/*Basic*/
+/*basic*/
 * {
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
 	color: #000;
 	font-family: "nimbus-sans", sans-serif;
-/*	font-family: sans-serif;*/
 	font-weight: 300;
 	box-sizing: border-box;
 }
 body {
 	background: white;
 }
-/*General Inline*/
+/*general typography*/
 h1 {
-	font-size: 8em;
+	font-size: 10em;
 	font-weight: 400;
-	line-height: 1em;
+	line-height: .9em;
 	text-transform: lowercase;
 	margin-top: 16px;
 	padding-bottom: 16px;
 	letter-spacing: -.01em;
+	max-width: 720px;
 }
 h2{
 	font-size: 4em;
@@ -78,47 +78,11 @@ a:hover {
 	border: 1px solid black;
 	cursor: pointer;
 }
-.button i, .button h0 {
+.button i {
 	color: white;
 }
-.button:hover i, .button:hover h0 {
-	color: #000;
-}
-
-/*
-.buttonLight {
-	padding: .5em;
-	background-color: white;
-	border: 1px solid white;
+.button:hover i {
 	color: black;
-	transition : all .125s ease-in;
-}
-.buttonLight:hover {
-	background-color: black;
-	border: 1px solid black;
-	color: white;
-}
-.buttonLight:hover i, .buttonLight:hover h0 {
-	color: white;
-}
-*/
-
-small {
-	font-size: .8em;
-	text-transform: uppercase;
-	letter-spacing: .125em;
-	padding: 8px;
-	display: inline-block;
-	color: #ffffff;
-}
-.recognition small {
-	background-color: #ff8296;
-}
-.education small {
-	background-color: #2e3192;
-}
-.work small {
-	background-color: #006838;
 }
 blockquote{
 	font-size: 2em;
@@ -129,7 +93,6 @@ blockquote{
 b {
 	font-weight: 700;
 }
-
 
 /*block components*/
 div#content{
@@ -146,16 +109,12 @@ section {
 	width: 100%;
 	padding: 0 .5em;
 }
-section > *{
-/*	align-self:center;*/
-}
 section.widthWindow {
 	width: 100%;
 	max-width: 100%;
 }
-
 aside {
-	background: #000000;
+	background: black;
 	color: white;
 	padding: .5em .5em 1em .5em;
 }
@@ -180,14 +139,3 @@ iframe {
 		font-size: 3em;
 	}
 }
-/*
-@media (min-width: 721px) {
-	h1 {
-		font-size: 3em;
-	}
-	h2 {
-		font-size: 3em;
-	}
-}
-*/
-

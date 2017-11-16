@@ -1,4 +1,4 @@
-div#header {
+header {
 	background: white;
 	position: fixed;
 	display: flex;
@@ -6,146 +6,81 @@ div#header {
 	z-index: 2;
 }
 
-div#header a {
-	display: inline-flex;
-	padding: .5em;
-	text-transform: capitalize;
-	transition : all .125s ease-in;
-	border: none;
-}
-div#header a:hover {
-	cursor: pointer;
-}
-
 /*buttons*/
-div#header a {
+header a.button {
+	border: none;
 	color: black;
 	background: white;
+	margin-bottom: 0;
 }
-div#header a i, div#header a h0 {
+header a.button i {
 	color: black;
 }
-div#header a:hover{
+header a.button:hover{
+	border: none;
 	color: white;
 	background: black;
 }
-div#header a:hover i, div#header a:hover h0 {
+header a.button:hover i{
 	color: white;
 }
-
-div#header nav#tabs a[sort="work"]:hover{
+header nav#tabs a[sort="work"]:hover{
 	background-color: #ff8296;
 }
-div#header nav#tabs a[sort="aboutMe"]:hover{
+header nav#tabs a[sort="aboutMe"]:hover{
 	background-color:#006838;
 }
-div#header nav#tabs a[sort="all"]:hover{
+header nav#tabs a[sort="all"]:hover{
 	background-color: #00aeef;
 }
 
 
 @media (max-width: 720px) {
-	div#header {
-/*		background: #000000;*/
+	header {
 		flex-direction: column;
 	}
-	
-/*	buttons*/
-	div#header div:nth-child(2) a {
-		color: white;
-		background: black;
-	}
-	div#header div:nth-child(2) a i, div#header a h0 {
-		color: white;
-	}
-	div#header div:nth-child(2) a:hover{
-		color: black;
-		background: white;
-	}
-	div#header div:nth-child(2) a:hover i, div#header a:hover h0 {
-		color: black;
-	}
-	
-	div#header a#hamburger{
-		display: inline-block;
-	}
-	
-	/*blocks*/
-	div#header div{
+	header div#topMobile {
 		display: flex;
-	}
-	div#header div:first-child{
 		justify-content: space-between;
 	}
-	
-	div#header div:nth-child(2){
+	/*hide buttons until hover*/
+	header nav {
 		display: none;
 	}
-	div#header:hover div:nth-child(2){
-		display: flex;
+	header:hover nav {
+		display: block;
 	}
 	
-	div#header div:nth-child(2){
+	header nav a {
+		display: flex;
 		flex-direction: column;
-		text-align: center;
 	}
-	div#header div:nth-child(2) nav {
-		text-align: center;
-	}
-	div#header div:nth-child(2) nav a{
-		display: inline-block;
+	header nav a.button {
+		background: black;
+		color: white;
 		width: 100%;
 		text-align: center;
 	}
+	header nav a.button i{
+		color: white;
+	}
+	header a.button:hover {
+		background: white;
+	}
+	header a.button:hover i, header a.button[sort="contact"]:hover {
+		color: black;
+	}
 }
 @media (min-width: 721px) {
-	div#header {
-/*		background: white;*/
-		padding: .5em .5em 0 .5em;
+	header {
+		justify-content: space-between;
+	}
+	header * {
+		display: flex;
 	}
 	
 	/*buttons*/
-/*
-	div#header a {
-		color: black;
-		background: white;
-	}
-	div#header a i, div#header a h0 {
-		color: black;
-	}
-	div#header a:hover{
-		color: white;
-		background: black;
-	}
-	div#header a:hover i, div#header a:hover h0 {
-		color: white;
-	}
-*/
-	div#header div a#hamburger{
+	header div a#hamburger{
 		display: none;
-	}
-	
-	/*blocks*/
-	div#header div:first-child {
-		width: 25%;
-		border-top: 1px solid black;
-	}
-	div#header div:nth-child(2) {
-		width: 75%;
-		border-top: 1px solid black;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-	}
-	
-	div#header div:nth-child(2) nav {
-		display: flex;
-	}
-	div#header div:nth-child(2) nav#tabs {
-		flex: 3;
-	}
-	div#header div:nth-child(2) nav#social {
-		flex: 1;
-		justify-content: flex-end;
 	}
 }
