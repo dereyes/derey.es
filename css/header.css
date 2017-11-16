@@ -1,4 +1,4 @@
-div#header {
+header {
 	background: white;
 	position: fixed;
 	display: flex;
@@ -6,94 +6,81 @@ div#header {
 	z-index: 2;
 }
 
-div#header a {
-	display: inline-flex;
-	padding: .5em;
-	text-transform: capitalize;
-	transition : all .125s ease-in;
-	border: none;
-}
-div#header a:hover {
-	cursor: pointer;
-}
-
 /*buttons*/
-div#header a {
+header a.button {
+	border: none;
 	color: black;
 	background: white;
+	margin-bottom: 0;
 }
-div#header a i, div#header a h0 {
+header a.button i {
 	color: black;
 }
-div#header a:hover{
+header a.button:hover{
+	border: none;
 	color: white;
 	background: black;
 }
-div#header a:hover i, div#header a:hover h0 {
+header a.button:hover i{
 	color: white;
 }
-
-div#header nav#tabs a[sort="work"]:hover{
+header nav#tabs a[sort="work"]:hover{
 	background-color: #ff8296;
 }
-div#header nav#tabs a[sort="aboutMe"]:hover{
+header nav#tabs a[sort="aboutMe"]:hover{
 	background-color:#006838;
 }
-div#header nav#tabs a[sort="all"]:hover{
+header nav#tabs a[sort="all"]:hover{
 	background-color: #00aeef;
 }
 
 
 @media (max-width: 720px) {
-	div#header {
+	header {
 		flex-direction: column;
 	}
-	div#header div#topMobile {
+	header div#topMobile {
 		display: flex;
 		justify-content: space-between;
 	}
-	
-	div#header nav {
+	/*hide buttons until hover*/
+	header nav {
 		display: none;
 	}
-	div#header:hover nav {
+	header:hover nav {
 		display: block;
 	}
 	
-	div#header nav a {
+	header nav a {
 		display: flex;
 		flex-direction: column;
 	}
-	div#header nav a {
+	header nav a.button {
 		background: black;
 		color: white;
 		width: 100%;
 		text-align: center;
 	}
-	div#header nav a i{
+	header nav a.button i{
 		color: white;
 	}
-	
-	/*buttons*/
-	div#header a:hover {
+	header a.button:hover {
 		background: white;
-		color: black;
 	}
-	div#header a:hover i {
+	header a.button:hover i, header a.button[sort="contact"]:hover {
 		color: black;
 	}
 }
 @media (min-width: 721px) {
-	div#header {
-		display: flex;
+	header {
 		justify-content: space-between;
 	}
-	div#header * {
+	header * {
 		display: flex;
 	}
 	
 	/*buttons*/
-	div#header div a#hamburger{
+	header div a#hamburger{
 		display: none;
 	}
 }

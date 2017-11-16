@@ -3,6 +3,7 @@
 		{
             "projectTag" : "breathe",
 			"title": "Breathe California Rebranding",
+			"titleHTML": "Breathe California Rebranding",
             "preview": "breathe/images/breatheHero.jpg",
             "hero": "<img src='images/1.jpg'>",
             "heroCaption": "",
@@ -17,6 +18,7 @@
 		{
             "projectTag" : "gato",
 			"title": "Gato",
+			"titleHTML": "Gato",
             "preview": "gato/images/gatoHero.gif",
             "hero": "<img src='images/heroGato.jpg'>",
             "heroCaption": "",
@@ -30,7 +32,8 @@
         },
         {
             "projectTag" : "arirang",
-			"title": "Arirang<br>Visualization",
+			"title": "Arirang Visualization",
+			"titleHTML": "Arirang<br>Visuali-<br>zation",
             "preview": "arirang/images/heroArirang.gif",
             "hero": "<iframe class='aspect16x9' src='https://www.youtube.com/embed/u4dnh7r_6Wg' frameborder='0' allowfullscreen></iframe>",
             "heroCaption": "A video of the performance on June 10, 2016.",
@@ -44,7 +47,8 @@
         },
         {
             "projectTag" : "soundScapesII",
-			"title": "Sound-<br>Scapes II",
+			"title": "SoundScapes II",
+			"titleHTML": "Sound-<br>Scapes II",
             "preview": "soundscapesII/images/3.JPG",
             "hero": "<img src='images/3.JPG'>",
             "heroCaption": "",
@@ -58,7 +62,8 @@
         },
         {
             "projectTag" : "soundScapesI",
-			"title": "Sound-<br>Scapes I",
+			"title": "SoundScapes I",
+			"titleHTML": "Sound-<br>Scapes I",
             "preview": "soundscapesI/images/heroSoundScapes.png",
             "hero": "<img src='images/heroSoundScapes.png'>",
             "heroCaption": "",
@@ -73,6 +78,7 @@
         {
             "projectTag" : "disQuiet",
 			"title": "DisQuiet Prototype",
+			"titleHTML": "DisQuiet Prototype",
             "preview": "disquiet/images/heroDisQuiet.gif",
             "hero": "<iframe class='aspect16x9' src='https://player.vimeo.com/video/165835870' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
             "heroCaption": "A video demo of the prototype",
@@ -86,7 +92,8 @@
         },
         {
             "projectTag" : "audioVisuals",
-			"title": "Audio-<br>Visuals",
+			"title": "AudioVisuals",
+			"titleHTML": "Audio-<br>Visuals",
             "preview": "audiovisuals/images/heroAudioVisuals.gif",
             "hero": "<img src='images/heroAudioVisuals.gif'>",
             "heroCaption": "A visualization of the song “She Wants” by Metronomy",

@@ -2,43 +2,8 @@
 $(document).ready(function(){
 	'use strict';
 	
-	// init controller
+	// init scrollmagic controller
 	var controller = new ScrollMagic.Controller();
-	// change behaviour of controller to animate scroll instead of jump
-//	controller.scrollTo(function (target) {
-//		TweenMax.to(window, 0.5, {
-//			scrollTo: {y: target}
-//		});
-//	});
-	
-	var $svg = $('svg').drawsvg({
-		duration: 1500,
-		callback: function() {
-			console.log('animated');
-		}
-	});
-
-	$svg.drawsvg('animate');
-	
-	function styles(){
-		var heightHeader = $("div#header").outerHeight();
-		
-		$(".heightWindow").css({
-			"min-height" : ($(window).innerHeight() - heightHeader)
-		});
-		$(".heightWindow66").css({
-			"height" : (($(window).height()/3)*2)-heightHeader,
-			"margin-bottom" : ($(window).height()/3)
-		});
-		$("#content").css({
-			"padding-top" : heightHeader
-		});
-		$(".aspect16x9").css({
-			"height" : ($(".aspect16x9").width()/16)*9
-		});
-		
-		console.log("styles applied");
-	}
 	
 	styles();
 	
@@ -54,7 +19,6 @@ $(document).ready(function(){
 	
 	//grab json file and run dataEntry function
 	$.getJSON('json/projects.json', dataEntry);
-	
 	
 	function dataEntry(data){
 		//save json data into p
@@ -75,7 +39,7 @@ $(document).ready(function(){
 					e = e + '<div class="heroImage" style="background-image: url(' + p[j].preview + ')"></div>';
 					
 					//title and subtitle
-					e = e + '<h2>' + p[j].title + '</h2><p>' + p[j].subtitle + '</p>';
+					e = e + '<h2>' + p[j].titleHTML + '</h2><p>' + p[j].subtitle + '</p>';
 					
 					//read more button
 					e = e + '<a class="button" href="' + p[j].readMore + '">Read More</a>';
@@ -92,8 +56,8 @@ $(document).ready(function(){
 		//style the new elements
 		styles();
 
-		//animate each .tileHome
-		var t = $('.tileHome:not(h1)').toArray();
+		//animate each tile
+		var t = $('.sectionTiles > article:not(h1)').toArray();
 
 		t.forEach(function (trigger, i) {
 			new ScrollMagic.Scene({
@@ -110,7 +74,7 @@ $(document).ready(function(){
 	
 	//sorting
 	//grab tiles
-	var tiles = $('.tileHome');
+	var tiles = $('.sectionTiles > *');
 	
 	//only on load, check to see if we came in with a hash
 	if(location.hash !== '') {
@@ -121,7 +85,7 @@ $(document).ready(function(){
 	}	
 	
 	//when a header a.sort is clicked, run sorting 
-	$("div#header div nav#tabs a").click(function(){
+	$("header div nav#tabs a").click(function(){
 		sorting($(this).attr("sort"));
 	});
 	
@@ -131,6 +95,7 @@ $(document).ready(function(){
 			case 'initial':
 				//if initial, filter w/ work
 				tilesShowHide('work');
+				styles();
 				break;
 			case 'all':
 				//if all, fade, show all, autoscroll

@@ -1,9 +1,18 @@
+/*use css to hide the page until fonts are loaded*/
 .wf-loading header, .wf-loading section:not(#loading), .wf-loading article {
     visibility: hidden;
 	display: none;
 	overflow: hidden;
  }
+html.wf-loading section#loading{
+	opacity: 1;
+}
+html:not(.wf-loading) section#loading {
+	opacity: 0;
+	pointer-events: none;
+}
 
+/*loading screen*/
 section#loading {
 	background: white;
 	position: fixed;
@@ -14,23 +23,11 @@ section#loading {
 	z-index: 2;
 	top: 0;
 	display: flex;
-	align-content: center;
 	justify-content: center;
 	align-items: center;
 }
-
-html.wf-loading section#loading{
-	opacity: 1;
-}
-
 section#loading img {
 	border: none;
 	width: 180px;
 	height: 180px;
-}
-
-
-html:not(.wf-loading) section#loading {
-	opacity: 0;
-	pointer-events: none;
 }
