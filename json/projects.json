@@ -1,6 +1,21 @@
 {
     "p": [
 		{
+            "projectTag" : "gato",
+			"title": "Gato",
+			"titleHTML": "Gato",
+            "preview": "gato/images/gatoHero.gif",
+            "hero": "<img src='images/heroGato.jpg'>",
+            "heroCaption": "",
+            "subtitle": "Interactive installation for babies, children, and their caretakers",
+            "tools": "Ableton Live, Adobe Illustrator, Processing, Unity C#, XBox Kinect",
+            "readMore": "gato/index.html",
+            "client": "Crocker Art Museum",
+            "role": "Audio Designer, Coder, Visual Designer, in collaboration with Michelle Lee",
+            "status": "Exhibited at the Crocker Art Museum from May 2017 to October 2017",
+            "tags": "#FrontEndDev #GenerativeGraphics #VisualDesign"
+        },
+		{
             "projectTag" : "breathe",
 			"title": "Breathe California Rebranding",
 			"titleHTML": "Breathe California Rebranding",
@@ -13,21 +28,6 @@
             "client": "Breathe California Sacramento Region",
             "role": "Coder, Visual Designer",
             "status": "Ongoing",
-            "tags": "#FrontEndDev #GenerativeGraphics #VisualDesign"
-        },
-		{
-            "projectTag" : "gato",
-			"title": "Gato",
-			"titleHTML": "Gato",
-            "preview": "gato/images/gatoHero.gif",
-            "hero": "<img src='images/heroGato.jpg'>",
-            "heroCaption": "",
-            "subtitle": "Interactive installation for babies, children, and their caretakers",
-            "tools": "Ableton Live, Adobe Illustrator, Processing, Unity C#, XBox Kinect",
-            "readMore": "gato/index.html",
-            "client": "Crocker Art Museum",
-            "role": "Audio Designer, Coder, Visual Designer, in collaboration with Michelle Lee",
-            "status": "Open now at the Crocker Art Museum until October 2017",
             "tags": "#FrontEndDev #GenerativeGraphics #VisualDesign"
         },
         {
