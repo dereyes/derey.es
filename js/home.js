@@ -102,16 +102,19 @@ $(document).ready(function(){
 				tilesFadeOut();
 				tilesShowAll();
 				autoScroll();
+				styles();
 				break;
 			case 'contact':
 				//if contact, autoscroll
 				autoScroll();
+				styles();
 				break;
 			default:
 				//otherwise, fade, filter, autoscroll
 				tilesFadeOut();
 				tilesShowHide(filter);
 				autoScroll();
+				styles();
 		}
 		
 		function tilesFadeOut(){
