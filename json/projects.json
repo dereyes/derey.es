@@ -5,7 +5,7 @@
 			"title": "Gato",
 			"titleHTML": "Gato",
             "preview": "gato/images/gatoHero.gif",
-            "hero": "<iframe class='aspect16x9' src='https://player.vimeo.com/video/243570108?autoplay=1' width='100%' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+            "hero": "<iframe class='aspect16x9' src='https://player.vimeo.com/video/243570108' width='100%' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
             "heroCaption": "",
             "subtitle": "Interactive installation for babies, children, and their caretakers",
             "tools": "Ableton Live, Adobe Illustrator, Processing, Unity C#, XBox Kinect",
@@ -29,6 +29,21 @@
             "role": "Coder, Visual Designer",
             "status": "Ongoing",
             "tags": "#FrontEndDev #GenerativeGraphics #VisualDesign"
+        },
+		{
+            "projectTag" : "fishyFlop",
+			"title": "Fishy Flop",
+			"titleHTML": "Fishy Flop",
+            "preview": "fishyflop/images/fishyFlopHero.gif",
+            "hero": "<img src='images/fishyFlopHero-large.gif'>",
+            "heroCaption": "",
+            "subtitle": "UI and gameplay assets for a mobile game",
+            "tools": "Adobe Illustrator",
+            "readMore": "fishyflop/index.html",
+            "client": "The Fishy Flop Team",
+            "role": "UI Designer, Visual Designer",
+            "status": "<a href='https://play.google.com/store/apps/details?id=com.WouldBeCool.FishyFlop'>Available for download from the Google Play Store</a>",
+            "tags": "#VisualDesign"
         },
         {
             "projectTag" : "arirang",

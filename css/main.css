@@ -43,6 +43,9 @@ p.caption {
 	display: block;
 	font-style: italic;
 }
+ul {
+	margin-left: 72px;
+}
 
 /*anchor tags*/
 a {
