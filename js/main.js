@@ -17,3 +17,20 @@ function styles(){
 		
 	console.log("styles applied");
 }
+
+//function to style vimeo videos when they are done loading, based on https://player.vimeo.com/static/internal/playground.js
+function vimeoReady(){
+    //grab all vimeo video players
+    var vimeoPlayers = $('iframe'), player;
+	
+	//once we receive the 'ready' message for a player, style it
+	for (var i = 0; i < vimeoPlayers.length; i++) {
+        player = vimeoPlayers[i];
+        $(player).on('ready', ready());
+    }
+
+    function ready() {
+		console.log('vimeo ready');
+		styles();
+    }
+}

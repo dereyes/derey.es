@@ -2,7 +2,10 @@
 $(document).ready(function(){
 	'use strict';
 	
-	styles();
+	//style vimeo videos
+	vimeoReady();
+	
+	//styles();
 	
 	$(window).resize(function(){
 		styles();

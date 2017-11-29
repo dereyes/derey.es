@@ -131,8 +131,8 @@ img {
 iframe {
 	width: 100%;
 	margin-bottom: 1em;
-	border: 1px solid black;
 }
+
 
 @media (max-width: 720px) {
 	h1 {

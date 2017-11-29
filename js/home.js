@@ -2,6 +2,9 @@
 $(document).ready(function(){
 	'use strict';
 	
+	//style vimeo videos
+	vimeoReady();
+	
 	// init scrollmagic controller
 	var controller = new ScrollMagic.Controller();
 	
