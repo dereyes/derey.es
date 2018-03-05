@@ -1,0 +1,144 @@
+/*basic*/
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	color: #000;
+	font-family: "nimbus-sans", sans-serif;
+	font-weight: 300;
+	box-sizing: border-box;
+}
+body {
+	background: white;
+}
+/*general typography*/
+h1 {
+	font-size: 10em;
+	font-weight: 400;
+	line-height: .9em;
+	text-transform: lowercase;
+	margin-top: 16px;
+	padding-bottom: 16px;
+	letter-spacing: -.01em;
+	max-width: 720px;
+}
+h2{
+	font-size: 4em;
+	font-weight: 400;
+	line-height: 1em;
+	padding-bottom: .125em;
+	letter-spacing: -.02em;
+	text-transform: lowercase;
+}
+h3 {
+	font-weight: 700;
+	line-height: 1.5em;
+}
+p {
+	font-size: 1em;
+	margin-bottom: 2em;
+	line-height: 1.5em;
+}
+p.caption {
+	display: block;
+	font-style: italic;
+}
+ul {
+	margin-left: 72px;
+}
+
+/*anchor tags*/
+a {
+	display: inline-flex;
+	text-decoration: none;
+	background: black;
+	color: white;
+	border: 1px solid white;
+	padding:  0 4px;
+	transition : all .125s ease-in;
+}
+a:hover {
+	background: white;
+	color: #000;
+	border: 1px solid black;
+}
+
+/*inline components*/
+.button {
+	color: white;
+	display: inline-flex;
+	padding: .5em;
+	margin-bottom: 1em;
+	text-transform: capitalize;
+	transition : all .125s ease-in;
+	/*pre-transiton rules*/
+	background: #000;
+	border: 1px solid white;
+}
+.button:hover {
+	background: white;
+	color: #000;
+	border: 1px solid black;
+	cursor: pointer;
+}
+.button i {
+	color: white;
+}
+.button:hover i {
+	color: black;
+}
+blockquote{
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1em;
+	padding-bottom: 1em; 
+}
+b {
+	font-weight: 700;
+}
+
+/*block components*/
+div#content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	padding: 0 .5em;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0 .5em;
+}
+section.widthWindow {
+	width: 100%;
+	max-width: 100%;
+}
+aside {
+	background: black;
+	color: white;
+	padding: .5em .5em 1em .5em;
+}
+aside * {
+	color: white;
+}
+img {
+	margin-bottom: 1em;
+	border: 1px solid black;
+}
+iframe {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+
+@media (max-width: 720px) {
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 3em;
+	}
+}
