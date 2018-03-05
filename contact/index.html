@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <base href="../" />
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darin E. Reyes / Contact</title>
+  <!--libs-->
+  <!--jquery-->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <!--typekit-->
+  <script src='https://use.typekit.net/ftq0ggh.js'></script>
+  <script>
+    try {
+      Typekit.load({
+        async: true
+      });
+    } catch (e) {}
+
+  </script>
+  <!--Favicon-->
+  <link rel='shortcut icon' href='images/favicon.png' type='image/png' />
+  <!--Google analytics-->
+  <script>
+    console.log('analytics');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-85708609-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!--fontawesome-->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+  <!--css-->
+  <link rel='stylesheet' href='css/loading.css' />
+  <link rel='stylesheet' href='css/components.css' />
+  <link rel='stylesheet' href='css/typography.css' />
+  <link rel='stylesheet' href='css/utilities.css' />
+  <link rel='stylesheet' href='css/structure.css' />
+  <link rel='stylesheet' href='css/header.css' />
+</head>
+
+<body>
+
+  <section id='loading'>
+    <img src='images/loading.gif' alt='now loading'>
+  </section>
+  <div id="content">
+    <section class="tiles">
+
+      <div class='tileText col-100 row-auto p-b-0'>
+        <a href='index.html'>
+      <img src='images/catface.png' id='catface'>
+    </a>
+      </div>
+    </section>
+    <section class="tiles">
+      <div class="tileText col-100 row-auto">
+        <h1>Contact</h1>
+        <form id="gform" method="POST" class="full" action="https://script.google.com/macros/s/AKfycbw3OqF_yQ8S1gdTuYfLyZzbsuCunk3iZi0sjvdwcARh_XocHwjt/exec">
+          <table>
+            <tr>
+              <td>
+                <label for="name"><h3>Name</h3></label>
+              </td>
+              <td>
+                <input id="name" name="name">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="message"><h3>Message</h3></label>
+              </td>
+              <td>
+                <textarea id="message" name="message" rows="6"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email"><h3>Email</h3></label>
+              </td>
+              <td>
+                <input id="email" name="email" type="email" value="" required="">
+                <span id="email-invalid" style="visibility:hidden">
+        Must be a valid email address</span>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <button>Send</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="tileText col-100 row-auto" style="display:none;" id="thankyou_message">
+        <p>Message sent.</p>
+      </div>
+      <!-- submit the form using AJAX -->
+      <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    </section>
+    <section class="tiles">
+
+      <div class="tileText col-100 row-auto p-t-0">
+        <p>Darin E. Reyes is a visual designer and creative coder living in San Luis Obispo, California.</p>
+
+        <a class="button button-pink" href="index.html">Work</a>
+
+        <a class="button button-green" href="about/index.html">About me</a>
+
+        <a class="button button-cyan" href="contact/index.html">Contact</a>
+
+        <a class="button" href="https://www.facebook.com/dereyesdesign">
+      <i class="fa fa-facebook-official"></i>
+    </a>
+
+        <a class="button" href="https://www.instagram.com/dereyesdesign/">
+      <i class="fa fa-instagram"></i>
+    </a>
+
+        <a class="button" href="https://twitter.com/dereyesdesign">
+      <i class="fa fa-twitter"></i>
+    </a>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
