@@ -5,7 +5,7 @@ echo '
     
     <a class="button button-pink" href="index.php">Work</a> 
     
-    <a class="button button-green" href="about/index.php">About me</a> 
+    <a class="button button-green" href="about/index.php">About</a> 
     
     <a class="button button-cyan" href="contact/index.php">Contact</a> 
     
