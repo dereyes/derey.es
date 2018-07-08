@@ -1,3 +1,16 @@
+header {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+header a {
+	padding: .5em 0 0 .5em;
+}
+
 img#catface {
   border: 0;
   height: 72px;

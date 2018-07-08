@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang ="en"><!-- InstanceBegin template="/Templates/mainHeaderFooter.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang ="en"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
 		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- InstanceBeginEditable name="doctitle" -->
-		Contact
+		Home
 		<!-- InstanceEndEditable -->
 		<!--libs-->
 		<!--jquery-->
@@ -62,52 +62,16 @@
 					<img src="../images/catface.png" id="catface" alt="Catface logo">
 				</a>
 			</header>
-	  
-			<!-- InstanceBeginEditable name="projectPage" -->
-			<section class="tiles">
-				<div class="tileText col-100 row-auto">
-					<h1>Contact</h1>
-					<form id="gform" method="POST" class="full" action="https://script.google.com/macros/s/AKfycbw3OqF_yQ8S1gdTuYfLyZzbsuCunk3iZi0sjvdwcARh_XocHwjt/exec">
-						<table>
-							<tr>
-								<td><label for="name">
-									<h3>Name</h3>
-									</label></td>
-								<td><input id="name" name="name"></td>
-							</tr>
-							<tr>
-								<td><label for="message">
-									<h3>Message</h3>
-									</label></td>
-								<td><textarea id="message" name="message" rows="6"></textarea></td>
-							</tr>
-							<tr>
-								<td><label for="email">
-									<h3>Email</h3>
-									</label></td>
-								<td><input id="email" name="email" type="email" value="" required="">
-									<span id="email-invalid" style="visibility:hidden"> Must be a valid email address</span></td>
-							</tr>
-							<tr>
-								<td colspan="2"><button>Send</button></td>
-							</tr>
-						</table>
-					</form>
-				</div>
-				<div class="tileText col-100 row-auto" style="display:none;" id="thankyou_message">
-					<p>Message sent.</p>
-				</div>
-				<!-- submit the form using AJAX --> 
-				<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> 
-			</section>
-			<!-- InstanceEndEditable -->
+	  <!-- InstanceBeginEditable name="body" -->
+			<!-- TemplateBeginEditable name="projectPage" -->
+			<!-- TemplateEndEditable -->
 			<section class="tiles">
       	<div class="tileText col-100 row-auto p-t-0">
         	<p>Darin E. Reyes is a visual designer and creative coder living in San Luis Obispo, California.</p>
 					<p>
 						<a href="../index.html">Work</a>
 						<a href="../about/index.html">About</a>
-						<a href="index.html">Contact</a>
+						<a href="../contact/index.html">Contact</a>
 						<a href="https://www.facebook.com/dereyesdesign">
 							<i class="fa fa-facebook-official"></i>
 						</a>
@@ -120,9 +84,9 @@
 					</p>
       	</div>
     	</section>
-			<!-- InstanceBeginEditable name="homePage" -->
-			<!-- InstanceEndEditable -->
-		
+			<!-- TemplateBeginEditable name="homePage" -->
+			<!-- TemplateEndEditable -->
+		<!-- InstanceEndEditable -->
 		</div>
 	</body>
 <!-- InstanceEnd --></html>

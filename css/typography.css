@@ -58,12 +58,12 @@ a {
 p a {
   border-bottom: 3px solid #ff8296;
   transition: all .125s ease-in;
+	text-align: center;
 }
-/*
+
 p a:hover {
-  border-width: 10px;
+  opacity: .5;
 }
-*/
 
 
 blockquote {
