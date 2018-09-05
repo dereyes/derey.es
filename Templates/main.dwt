@@ -51,7 +51,11 @@
 		<link rel="stylesheet" href="../css/utilities.css" />
 		<link rel="stylesheet" href="../css/structure.css" />
 		<link rel="stylesheet" href="../css/header.css" />
-  </head>
+		
+		<!-- TemplateBeginEditable name="ExtraLibs" -->
+		<!-- TemplateEndEditable -->
+		
+</head>
   <body>
 		<section id="loading">
   	  <img src="../images/loading.gif" alt="now loading">
