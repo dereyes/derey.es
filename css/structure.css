@@ -17,13 +17,46 @@ auto:
 auto (fit container to content)
 */
 
+/*rows and cols*/
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*justify aong major axis*/
+.justify-content-start {
+	justify-content: flex-start;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+/*flex-wrap*/
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+/*borders*/
+.border-top {
+	border-top: 1px solid #000;
+}
+
 section.tiles {
+/*
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+*/
+/*  flex: 0 1 540px;*/
   max-width: 270px;
-  border-top: 1px solid #000;
+	margin: 0 36px;
 }
 
 section.tiles .tileTitle,
@@ -86,10 +119,17 @@ section.tiles .row-auto {
   min-height: 0 !important;
 }
 
-@media screen and (min-width: 557px) {
+@media screen and (min-width: 630px) {
+	section {
+		flex: 0 0 540px;
+	}
+	
+/*
   section.tiles {
     max-width: 540px;
+		flex: 0 0 540px;
   }
+*/
   section.tiles .tileTitle,
   section.tiles .tileText {
     min-height: 270px;

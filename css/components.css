@@ -15,11 +15,17 @@ body {
 div#content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  padding: 5em 0;
+  flex: 0 1 612px;
+  padding: 0 0 5em 0;
 }
+
+/*
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+*/
 
 aside {
   background: black;

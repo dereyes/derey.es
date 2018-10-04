@@ -56,12 +56,12 @@
 		<!-- TemplateEndEditable -->
 		
 </head>
-  <body>
-		<section id="loading">
+  <body class="row justify-content-center">
+		<div id="loading">
   	  <img src="../images/loading.gif" alt="now loading">
-	  </section>
-		<div id="content">
-			<header>
+	  </div>
+		<div id="content" class="col">
+			<header class="row justify-content-start">
 				<a href="../index.html">
 					<img src="../images/catface.png" id="catface" alt="Catface logo">
 				</a>

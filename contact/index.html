@@ -56,20 +56,20 @@
 		<!-- InstanceEndEditable -->
 		
 </head>
-  <body>
-		<section id="loading">
+  <body class="row justify-content-center">
+		<div id="loading">
   	  <img src="../images/loading.gif" alt="now loading">
-	  </section>
-		<div id="content">
-			<header>
+	  </div>
+		<div id="content" class="col">
+			<header class="row justify-content-start">
 				<a href="../index.html">
 					<img src="../images/catface.png" id="catface" alt="Catface logo">
 				</a>
 			</header>
 	  
-			<!-- InstanceBeginEditable name="projectPage" -->
-			<section class="tiles">
-				<div class="tileText col-100 row-auto">
+			<div class="row justify-content-center">
+				<!-- InstanceBeginEditable name="projectPage" -->
+				<section class="col flex-wrap border-top">
 					<h1>Contact</h1>
 					<form id="gform" method="POST" class="full" action="https://script.google.com/macros/s/AKfycbw3OqF_yQ8S1gdTuYfLyZzbsuCunk3iZi0sjvdwcARh_XocHwjt/exec">
 						<table>
@@ -103,30 +103,72 @@
 							</tr>
 						</table>
 					</form>
-				</div>
-				<div class="tileText col-100 row-auto" style="display:none;" id="thankyou_message">
-					<p>Message sent.</p>
-				</div>
-				<!-- submit the form using AJAX --> 
-				<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> 
-			</section>
+				</section>
+				
+				
+<!--
+				<section class="tiles col flex-wrap border-top">
+					<div class="tileText col-100 row-auto">
+						<h1>Contact</h1>
+						<form id="gform" method="POST" class="full" action="https://script.google.com/macros/s/AKfycbw3OqF_yQ8S1gdTuYfLyZzbsuCunk3iZi0sjvdwcARh_XocHwjt/exec">
+							<table>
+								<tr>
+									<td><label for="name">
+										<h3>Name</h3>
+										</label></td>
+									<td><input id="name" name="name" required=""></td>
+								</tr>
+								<tr>
+									<td><label for="message">
+										<h3>Message</h3>
+										</label></td>
+									<td><textarea id="message" name="message" rows="6" required=""></textarea></td>
+								</tr>
+								<tr>
+									<td><label for="email">
+										<h3>Email</h3>
+										</label></td>
+									<td><input id="email" name="email" type="email" value="" required="">
+										<span id="email-invalid" style="visibility:hidden"> Must be a valid email address</span></td>
+								</tr>
+								<tr>
+									<td><label for="color">
+										<h3>Favorite color</h3>
+										</label></td>
+									<td><input id="color" name="color" required=""></td>
+								</tr>
+								<tr>
+									<td colspan="2"><button>Send</button></td>
+								</tr>
+							</table>
+						</form>
+					</div>
+					<div class="tileText col-100 row-auto" style="display:none;" id="thankyou_message">
+						<p>Message sent.</p>
+					</div>
+					 submit the form using AJAX  
+					<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> 
+				</section>
+-->
 			
-			<script nonce="J/SCqMILnbFOHjZX8Oc/VetMLP8">
-                      var onSuccess = function(response) {
-                        var errorDivs = document.getElementsByClassName("recaptcha-error");
-                        if (errorDivs.length) {
-                          errorDivs[0].className = "";
-                        }
-                        var errorMsgs = document.getElementsByClassName("recaptcha-error-message");
-                        if (errorMsgs.length) {
-                          errorMsgs[0].parentNode.removeChild(errorMsgs[0]);
-                        }
-                        };</script>
+				<script nonce="J/SCqMILnbFOHjZX8Oc/VetMLP8">
+					var onSuccess = function(response) {
+						var errorDivs = document.getElementsByClassName("recaptcha-error");
+							if (errorDivs.length) {
+								errorDivs[0].className = "";
+							}
+						var errorMsgs = document.getElementsByClassName("recaptcha-error-message");
+							if (errorMsgs.length) {
+								errorMsgs[0].parentNode.removeChild(errorMsgs[0]);
+							}
+						};
+				</script>
 			
 			<!-- InstanceEndEditable -->
-			<section class="tiles b-t-0">
-      	<div class="tileText col-100 row-auto p-t-0">
-        	<p>Darin E. Reyes is a visual designer and creative coder living in San Luis Obispo, California.</p>
+			</div>
+			<div class="row justify-content-center">
+				<section class="col">
+					<p>Darin E. Reyes is a visual designer and creative coder living in San Luis Obispo, California.</p>
 					<p>
 						<a href="../index.html">Work</a>
 						<a href="../about/index.html">About</a>
@@ -141,8 +183,8 @@
 							<i class="fa fa-twitter"></i> 
 						</a>
 					</p>
-      	</div>
-    	</section>
+				</section>
+			</div>
 			<!-- InstanceBeginEditable name="homePage" -->
 			<!-- InstanceEndEditable -->
 		

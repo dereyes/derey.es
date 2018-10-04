@@ -3,7 +3,7 @@
   <head>
 		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- InstanceBeginEditable name="doctitle" -->
-		Home
+		<title>D E Reyes / Home</title>
 		<!-- InstanceEndEditable -->
 		<!--libs-->
 		<!--jquery-->
@@ -56,22 +56,24 @@
 		<!-- InstanceEndEditable -->
 		
 </head>
-  <body>
-		<section id="loading">
+  <body class="row justify-content-center">
+		<div id="loading">
   	  <img src="../images/loading.gif" alt="now loading">
-	  </section>
-		<div id="content">
-			<header>
+	  </div>
+		<div id="content" class="col">
+			<header class="row justify-content-start">
 				<a href="../index.html">
 					<img src="../images/catface.png" id="catface" alt="Catface logo">
 				</a>
 			</header>
 	  <!-- InstanceBeginEditable name="body" -->
-			<!-- TemplateBeginEditable name="projectPage" -->
-			<!-- TemplateEndEditable -->
-			<section class="tiles b-t-0">
-      	<div class="tileText col-100 row-auto p-t-0">
-        	<p>Darin E. Reyes is a visual designer and creative coder living in San Luis Obispo, California.</p>
+			<div class="row justify-content-center">
+				<!-- TemplateBeginEditable name="projectPage" -->
+				<!-- TemplateEndEditable -->
+			</div>
+			<div class="row justify-content-center">
+				<section class="col">
+					<p>Darin E. Reyes is a visual designer and creative coder living in San Luis Obispo, California.</p>
 					<p>
 						<a href="../index.html">Work</a>
 						<a href="../about/index.html">About</a>
@@ -86,8 +88,8 @@
 							<i class="fa fa-twitter"></i> 
 						</a>
 					</p>
-      	</div>
-    	</section>
+				</section>
+			</div>
 			<!-- TemplateBeginEditable name="homePage" -->
 			<!-- TemplateEndEditable -->
 		<!-- InstanceEndEditable -->
