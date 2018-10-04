@@ -56,22 +56,24 @@
 		<!-- InstanceEndEditable -->
 		
 </head>
-  <body>
-		<section id="loading">
+  <body class="row justify-content-center">
+		<div id="loading">
   	  <img src="images/loading.gif" alt="now loading">
-	  </section>
-		<div id="content">
-			<header>
+	  </div>
+		<div id="content" class="col">
+			<header class="row justify-content-start">
 				<a href="index.html">
 					<img src="images/catface.png" id="catface" alt="Catface logo">
 				</a>
 			</header>
 	  
-			<!-- InstanceBeginEditable name="projectPage" -->
+			<div class="row justify-content-center">
+				<!-- InstanceBeginEditable name="projectPage" -->
 			<!-- InstanceEndEditable -->
-			<section class="tiles b-t-0">
-      	<div class="tileText col-100 row-auto p-t-0">
-        	<p>Darin E. Reyes is a visual designer and creative coder living in San Luis Obispo, California.</p>
+			</div>
+			<div class="row justify-content-center">
+				<section class="col">
+					<p>Darin E. Reyes is a visual designer and creative coder living in San Luis Obispo, California.</p>
 					<p>
 						<a href="index.html">Work</a>
 						<a href="about/index.html">About</a>
@@ -86,88 +88,102 @@
 							<i class="fa fa-twitter"></i> 
 						</a>
 					</p>
-      	</div>
-    	</section>
+				</section>
+			</div>
+			<div class="row justify-content-center">
 			<!-- InstanceBeginEditable name="homePage" -->
+				<section class="col">
+					<!--latest-->
+					<div class="tiles border-top">
+						<div class="tile-w-1 tile-lg-h-1">
+							<h1>2018<br><i class="fa fa-caret-down" aria-hidden="true"></i></h1>
+						</div>
+						<a id="shadowplay" class="tileProject tile-w-1 tile-h-1" style="
+						background:url('shadowplay/images/hero.gif');
+						background-position: center;
+						background-size: cover;" href="shadowplay/index.html">
+							<div class="tileProjectInfo">
+								<h2>ShadowPlay</h2>
+								<p>Interactive dance floor</p>
+							</div>
+						</a>
+					</div>
+					<!--2017-->
+					<div class="tiles border-top">
+						<div class="tile-w-1 tile-lg-h-1">
+							<h1>2017<br><i class="fa fa-caret-down" aria-hidden="true"></i></h1>
+						</div>
+						<a id="gato" class="tileProject tile-w-1 tile-h-1" style="
+						background:url('gato/images/gatoHero.gif');
+						background-position: center;
+						background-size: cover;"
+						href="gato/index.html">
+							<div class="tileProjectInfo">
+								<h2>Gato</h2>
+								<p>Interactive installation for babies, children, and their caretakers</p>
+							</div>
+						</a>
+						<a class="tileBigText tile-sm-w-1 tile-lg-w-2 tile-h-1" style="background:url('gato/images/gatoVideoPreview.gif');background-position:center; background-size: cover" href="https://vimeo.com/243570108">
+							<div class="tileBigTextInfo">
+								<h1>Watch the mini-doc on Vimeo</h1>
+							</div>
+						</a>
+						<a id="breathe" class="tileProject tile-w-1 tile-h-1" style="
+						background:url('breathe/images/breatheHero.jpg');
+						background-position: center;
+						background-size: cover;"
+						href="breathe/index.html">
+							<div class="tileProjectInfo">
+								<h2>Breathe California Rebranding</h2>
+								<p>Marketing materials for a local non-profit</p>
+							</div>
+						</a>
+					</div>
+					<!--2017-->
+					<div class="tiles border-top">
+						<div class="tile-w-1 tile-lg-h-1">
+							<h1>2016<br><i class="fa fa-caret-down" aria-hidden="true"></i></h1>
+						</div>
+						<a id="fishyflop" class="tileProject tile-w-1 tile-h-1" style="background:url('fishyflop/images/fishyFlopHero.gif');
+						background-position: center;
+						background-size: cover;"
+						href="fishyflop/index.html">
+							<div class="tileProjectInfo">
+								<h2>Fishy Flop</h2>
+								<p>UI and gameplay assets for a mobile game</p>
+							</div>
+						</a>
+						<a id="arirang" class="tileProject tile-w-1 tile-h-1" style="
+						background:url('arirang/images/heroArirang.gif');
+						background-position: center;
+						background-size: cover;"
+						href="arirang/index.html">
+							<div class="tileProjectInfo">
+								<h2>Arirang Visualization</h2>
+								<p>Live interactive concert visuals</p>
+							</div>
+						</a>
+						<a id="disquiet" class="tileProject tile-w-1 tile-h-1" style="
+							background:url('disquiet/images/heroDisQuiet.gif');
+							background-position: center;
+							background-size: contain; background-repeat: no-repeat; background-color: black;"
+							href="disquiet/index.html">
+							<div class="tileProjectInfo">
+								<h2>DisQuiet Prototype</h2>
+								<p>Musical relaxation app for depression and anxiety</p>
+							</div>
+						</a>
+					</div>
+				</section>
+			
+			
+<!--
 			<section class="tiles">
-				<div class="tileTitle">
-					<h1>Latest<br><i class="fa fa-caret-down" aria-hidden="true"></i></h1>
-				</div>
-				<a id="shadowplay" class="tileProject" style="
-					background:url('shadowplay/images/hero.gif');
-					background-position: center;
-					background-size: cover;"
-					href="shadowplay/index.html">
-					<div class="tileProjectInfo">
-						<h2>ShadowPlay</h2>
-						<p>Interactive dance floor</p>
-					</div>
-				</a>
-			</section>
-			<section class="tiles">
-				<div class="tileTitle">
-					<h1>2017<br><i class="fa fa-caret-down" aria-hidden="true"></i></h1>
-				</div>
-				<a id="gato" class="tileProject" style="
-					background:url('gato/images/gatoHero.gif');
-					background-position: center;
-					background-size: cover;"
-					href="gato/index.html">
-					<div class="tileProjectInfo">
-						<h2>Gato</h2>
-						<p>Interactive installation for babies, children, and their caretakers</p>
-					</div>
-				</a>
-				<a class="tileBigText col-lg-2" style="background:url('gato/images/gatoVideoPreview.gif');background-position:center;" href="https://vimeo.com/243570108">
-					<div class="tileBigTextInfo">
-						<h1>Watch the mini-doc on Vimeo</h1>
-					</div>
-				</a>
-				<a id="breathe" class="tileProject" style="
-					background:url('breathe/images/breatheHero.jpg');
-					background-position: center;
-					background-size: cover;"
-					href="breathe/index.html">
-					<div class="tileProjectInfo">
-						<h2>Breathe California Rebranding</h2>
-						<p>Marketing materials for a local non-profit</p>
-					</div>
-				</a>
+				
    		</section>
 			<section class="tiles">
-      	<div class="tileTitle">
-        	<h1>2016<br><i class="fa fa-caret-down" aria-hidden="true"></i></h1>
-      	</div>
-      	<a id="fishyflop" class="tileProject" style="
-        	background:url('fishyflop/images/fishyFlopHero.gif');
-        	background-position: center;
-        	background-size: cover;"
-					href="fishyflop/index.html">
-					<div class="tileProjectInfo">
-						<h2>Fishy Flop</h2>
-						<p>UI and gameplay assets for a mobile game</p>
-					</div>
-				</a>
-				<a id="arirang" class="tileProject" style="
-					background:url('arirang/images/heroArirang.gif');
-					background-position: center;
-					background-size: cover;"
-					href="arirang/index.html">
-					<div class="tileProjectInfo">
-						<h2>Arirang Visualization</h2>
-						<p>Live interactive concert visuals</p>
-					</div>
-				</a>
-				<a id="disquiet" class="tileProject" style="
-					background:url('disquiet/images/heroDisQuiet.gif');
-					background-position: center;
-					background-size: cover;"
-					href="disquiet/index.html">
-					<div class="tileProjectInfo">
-						<h2>DisQuiet Prototype</h2>
-						<p>Musical relaxation app for depression and anxiety</p>
-					</div>
-				</a>
+      	
+					
     	</section>
 			<section class="tiles">
 				<div class="tileTitle">
@@ -183,7 +199,9 @@
 					</div>
 				</a>
 			</section>
+-->
 			<!-- InstanceEndEditable -->
+			</div>
 		
 		</div>
 	</body>

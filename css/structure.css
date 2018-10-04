@@ -28,7 +28,6 @@ auto (fit container to content)
 	flex-direction: column;
 }
 
-
 /*justify aong major axis*/
 .justify-content-start {
 	justify-content: flex-start;
@@ -42,6 +41,8 @@ auto (fit container to content)
 .flex-wrap {
 	flex-wrap: wrap;
 }
+
+
 
 /*borders*/
 .border-top {
@@ -70,40 +71,6 @@ section.tiles > * {
   min-height: 270px;
 }
 
-section.tiles .tileBigText,
-section.tiles .tileBigText * {
-  padding: 0;
-  font-family: nimbus-roman, serif;
-}
-
-section.tiles .tileBigText .tileBigTextInfo {
-  background: rgba(0, 0, 0, .5);
-  width: 100%;
-  height: 100%;
-  padding: .5em;
-}
-
-section.tiles .tileBigText .tileBigTextInfo h1 {
-  color: #fff;
-  opacity: 1;
-}
-
-section.tiles .tileProject {
-  padding: .5em;
-}
-
-section.tiles .tileProject .tileProjectInfo {
-  background: #fff;
-  height: 100%;
-  padding: .5em;
-  opacity: 0;
-  transition: opacity .125s ease-in;
-}
-
-section.tiles .tileProject:hover .tileProjectInfo {
-  opacity: 1;
-}
-
 section.tiles .tileImg {
   background-position: center;
   background-size: cover;
@@ -119,10 +86,96 @@ section.tiles .row-auto {
   min-height: 0 !important;
 }
 
+/*tiles*/
+.tiles {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/*project tiles*/
+.tileProject {
+  padding: .5em;
+}
+.tiles .tileProject .tileProjectInfo {
+  background: #fff;
+  height: 100%;
+  padding: .5em;
+  opacity: 0;
+  transition: opacity .125s ease-in;
+}
+.tiles .tileProject:hover .tileProjectInfo {
+  opacity: 1;
+}
+
+/*big text tiles*/
+.tiles .tileBigText,
+.tiles .tileBigText * {
+  padding: 0;
+  font-family: nimbus-roman, serif;
+}
+.tiles .tileBigText .tileBigTextInfo {
+  background: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100%;
+  padding: .5em;
+}
+.tiles .tileBigText .tileBigTextInfo h1 {
+  color: #fff;
+  opacity: 1;
+}
+
+/*tile sizing*/
+.tile-w {
+	flex: 1 1;
+}
+.tile-h-1 {
+	min-height: 15em;
+}
+.tile-w-1 {
+	flex: 0 0 15em;
+}
+
+@media screen and (max-width: 630px) {
+	section {
+		flex: 0 0 15em;
+	}
+	
+	/*tile sizing*/
+	.tile-sm-w-1 {
+		flex: 0 0 15em;
+	}
+	.tile-sm-w-2 {
+		flex: 0 0 30em;
+	}
+	.tile-sm-h-1 {
+		min-height: 15em;
+	}
+	.tile-sm-h-2 {
+		min-height: 30em;
+	}
+}
+
 @media screen and (min-width: 630px) {
 	section {
-		flex: 0 0 540px;
+		flex: 0 0 30em;
 	}
+	
+	/*tile sizing*/
+	.tile-lg-w-1 {
+		flex: 0 0 15em;
+	}
+	.tile-lg-w-1 {
+		flex: 0 0 30em;
+	}
+	.tile-lg-h-1 {
+		min-height: 15em;
+	}
+	.tile-lg-h-2 {
+		min-height: 30em;
+	}
+	
+	
 	
 /*
   section.tiles {
@@ -130,8 +183,8 @@ section.tiles .row-auto {
 		flex: 0 0 540px;
   }
 */
-  section.tiles .tileTitle,
-  section.tiles .tileText {
+  .tiles .tileTitle,
+  .tiles .tileText {
     min-height: 270px;
   }
   section.tiles .tileWide {
