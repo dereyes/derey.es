@@ -77,6 +77,11 @@ b, strong {
   font-weight: 700;
 }
 
+i {
+    font-size: inherit;
+    color: inherit;
+}
+
 @media (max-width: 720px) {
   h1 {
     font-size: 3em;
