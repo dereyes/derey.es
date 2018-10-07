@@ -8,7 +8,6 @@
 /*general typography*/
 
 h1 {
-  font-size: 3em;
   font-weight: 400;
   line-height: 1em;
   /*	text-transform: lowercase;*/
@@ -82,11 +81,14 @@ i {
     color: inherit;
 }
 
-@media (max-width: 720px) {
-  h1 {
-    font-size: 3em;
-  }
-  h2 {
-    font-size: 2em;
-  }
+@media screen and (max-width: 630px) {
+	h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (min-width: 630px) {
+	h1 {
+		font-size: 3em;
+	}
 }

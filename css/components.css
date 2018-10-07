@@ -93,34 +93,9 @@ a.button.button-cyan:hover {
   border-color: #fff;
 }
 
-/*
-.button {
-  color: white;
-  display: inline-flex;
-  padding: .5em;
-  margin-bottom: 1em;
-  text-transform: capitalize;
-  transition: all .125s ease-in;
-  pre-transiton rules
-  background: #000;
-  border: 1px solid white;
-}
-
-.button:hover {
-  background: white;
-  color: #000;
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-.button i {
-  color: white;
-}
-
-.button:hover i {
-  color: black;
-}
-*/
+a.button.button-project{
+	
+} 
 
 /*tables*/
 

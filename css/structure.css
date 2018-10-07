@@ -1,21 +1,3 @@
-/*sizing classes has 3 parts:
-.target-screen size-target size
-e.g.: .col-lg-2 means this element
-should take up 2 columns when the screen is large-sized
-
-there are only 2 screen sizes:
-sm (1 column, outside of media q's)
-lg (2 columns, inside media q)
-if none is specified, styles apply to all screen sizes
-
-there are three kinds of column sizes:
-units:
-1 (1 col or row), 2 (2 cols or rows)
-percentages:
-100 (entire col or row)
-auto:
-auto (fit container to content)
-*/
 
 /*rows and cols*/
 .row {
@@ -47,45 +29,11 @@ auto (fit container to content)
 	border-top: 1px solid #000;
 }
 
-/*
-section.tiles {
-  max-width: 270px;
-	margin: 0 36px;
-}
-*/
-
-/*
-section.tiles .tileTitle,
-section.tiles .tileText {
-  min-height: 0;
-}
-*/
-
-/*
-section.tiles > * {
-  padding: .5em .5em 0 0;
-  width: 270px;
-  min-height: 270px;
-}
-*/
-
 .tiles .tileImg {
   background-position: center;
   background-size: cover;
   border: 1px solid #000;
 }
-
-/*
-section.tiles .col-100 {
-  width: 100%;
-}
-*/
-
-/*
-section.tiles .row-auto {
-  min-height: 0 !important;
-}
-*/
 
 /*tiles*/
 .tiles {
@@ -180,15 +128,7 @@ section.tiles .row-auto {
 	.tile-lg-h-2 {
 		min-height: 30em;
 	}
-	
-	
-	
-/*
-  section.tiles {
-    max-width: 540px;
-		flex: 0 0 540px;
-  }
-*/
+
   .tiles .tileTitle,
   .tiles .tileText {
     min-height: 270px;
